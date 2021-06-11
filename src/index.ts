@@ -1,89 +1,8 @@
 // Copyright 2020-2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: Apache-2.0
 
-// Components
-export { Badge } from './components/ui/Badge';
-export { Button } from './components/ui/Button/';
-export { PrimaryButton } from './components/ui/Button/PrimaryButton';
-export { SecondaryButton } from './components/ui/Button/SecondaryButton';
-export { IconButton } from './components/ui/Button/IconButton';
-export { Checkbox } from './components/ui/Checkbox';
-export { ControlBar } from './components/ui/ControlBar';
-export { ControlBarButton } from './components/ui/ControlBar/ControlBarButton';
-export { Flex } from './components/ui/Flex';
-export { FormField } from './components/ui/FormField';
-export { Heading } from './components/ui/Heading';
-export * from './components/ui/icons';
-export { Input } from './components/ui/Input';
-export { SearchInput } from './components/ui/Input/SearchInput';
-export { InputWrapper } from './components/ui/Input/InputWrapper';
-export { Label } from './components/ui/Label';
-export { Modal } from './components/ui/Modal';
-export { ModalBody } from './components/ui/Modal/ModalBody';
-export { ModalButton } from './components/ui/Modal/ModalButton';
-export { ModalButtonGroup } from './components/ui/Modal/ModalButtonGroup';
-export { ModalHeader } from './components/ui/Modal/ModalHeader';
-export { Navbar } from './components/ui/Navbar';
-export { NavbarHeader } from './components/ui/Navbar/NavbarHeader';
-export { NavbarItem } from './components/ui/Navbar/NavbarItem';
-export { Notification } from './components/ui/Notification';
-export { NotificationGroup } from './components/ui/NotificationGroup';
-export { PopOver } from './components/ui/PopOver';
-export { PopOverHeader } from './components/ui/PopOver/PopOverHeader';
-export { PopOverItem } from './components/ui/PopOver/PopOverItem';
-export { PopOverSeparator } from './components/ui/PopOver/PopOverSeparator';
-export { PopOverSubMenu } from './components/ui/PopOver/PopOverSubMenu';
-export { Portal } from './components/ui/Portal';
-export { Radio } from './components/ui/Radio';
-export { RadioGroup } from './components/ui/RadioGroup';
-export { Select } from './components/ui/Select';
-export { Textarea } from './components/ui/Textarea';
-export { VideoGrid } from './components/ui/VideoGrid';
-export { VideoTile } from './components/ui/VideoTile/';
-export { Grid } from './components/ui/Grid';
-export { Cell } from './components/ui/Grid/Cell';
-export { Roster } from './components/ui/Roster';
-export { RosterHeader } from './components/ui/Roster/RosterHeader';
-export { RosterGroup } from './components/ui/Roster/RosterGroup';
-export { RosterCell } from './components/ui/Roster/RosterCell';
-export { UserActivityManager } from './components/ui/UserActivityManager';
-export { ChannelList } from './components/ui/Chat/ChannelList';
-export { ChannelItem } from './components/ui/Chat/ChannelList/ChannelItem';
-export { ChatBubble } from './components/ui/Chat/ChatBubble';
-export { EditableChatBubble } from './components/ui/Chat/ChatBubble/EditableChatBubble';
-export { ChatBubbleContainer } from './components/ui/Chat/ChatBubble/ChatBubbleContainer';
-export { InfiniteList } from './components/ui/Chat/InfiniteList';
-export { MessageAttachment } from './components/ui/Chat/MessageAttachment';
-export { formatDate, formatTime } from './components/ui/Utilities';
-export {
-  WithTooltip,
-  Tooltipable,
-  ToolTipPositionType,
-  ToolTipProps,
-} from './components/ui/WithTooltip';
-
-// SDK components
-export {
-  CameraSelection,
-  MicSelection,
-  SpeakerSelection,
-  QualitySelection,
-} from './components/sdk/DeviceSelection';
-export {
-  AudioInputControl,
-  AudioOutputControl,
-  ContentShareControl,
-  VideoInputControl,
-} from './components/sdk/MeetingControls';
-export { ContentShare } from './components/sdk/ContentShare';
-export { LocalVideo } from './components/sdk/LocalVideo';
-export { PreviewVideo } from './components/sdk/PreviewVideo';
-export { RemoteVideo } from './components/sdk/RemoteVideo';
-export { RemoteVideos } from './components/sdk/RemoteVideos';
-export { FeaturedRemoteVideos } from './components/sdk/FeaturedRemoteVideos';
-export { VideoTileGrid } from './components/sdk/VideoTileGrid';
-export { MicrophoneActivity } from './components/sdk/MicrophoneActivity';
-export { RosterAttendee } from './components/sdk/RosterAttendee';
+export {default as Dislike} from './components/ui/icons/Dislike';
+export {default as Like} from './components/ui/icons/Like';
 
 // Constants
 export { KEY_CODES } from './constants';
@@ -160,9 +79,6 @@ export {
   UserActivityProvider,
   useUserActivityState,
 } from './providers/UserActivityProvider';
-
-// Themes
-export { lightTheme, darkTheme, GlobalStyles, StyledReset } from './theme';
 
 // Types
 export { VideoQuality } from './hooks/sdk/useSelectVideoQuality';
