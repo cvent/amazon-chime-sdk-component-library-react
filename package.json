@@ -46,7 +46,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^13.0.0",
-    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-node-resolve": "^8.4.0",
     "@storybook/addon-a11y": "^6.2.9",
     "@storybook/addon-docs": "^6.2.9",
     "@storybook/addon-knobs": "^6.2.9",
